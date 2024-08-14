@@ -10,6 +10,7 @@ const Canvas = () => {
   const [inputText, setInputText] = useState('');
 
   const addCard = () => {
+     const offset = 220;
     const initialX = 100;
     const initialY = 100;
     const newCard = {
